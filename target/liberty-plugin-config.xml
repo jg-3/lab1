@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<liberty-plugin-config>
+    <installDirectory>C:\Users\john3\eclipse-workspace\lab1\target\liberty\wlp</installDirectory>
+    <serverDirectory>C:\Users\john3\eclipse-workspace\lab1\target\liberty\wlp\usr\servers\lab1Server</serverDirectory>
+    <userDirectory>C:\Users\john3\eclipse-workspace\lab1\target\liberty\wlp\usr</userDirectory>
+    <serverOutputDirectory>C:\Users\john3\eclipse-workspace\lab1\target\liberty\wlp\usr\servers\lab1Server</serverOutputDirectory>
+    <serverName>lab1Server</serverName>
+    <configDirectory>C:\Users\john3\eclipse-workspace\lab1\src\main\liberty\config</configDirectory>
+    <configFile>C:\Users\john3\eclipse-workspace\lab1\src\main\liberty\config\server.xml</configFile>
+    <looseApplication>true</looseApplication>
+    <stripVersion>false</stripVersion>
+    <installAppPackages>project</installAppPackages>
+    <applicationFilename>lab1.war.xml</applicationFilename>
+    <assemblyArtifact>
+        <groupId>io.openliberty</groupId>
+        <artifactId>openliberty-runtime</artifactId>
+        <version>24.0.0.9</version>
+        <type>zip</type>
+    </assemblyArtifact>
+    <assemblyArchive>C:\Users\john3\.m2\repository\io\openliberty\openliberty-runtime\24.0.0.9\openliberty-runtime-24.0.0.9.zip</assemblyArchive>
+    <assemblyInstallDirectory>C:\Users\john3\eclipse-workspace\lab1\target\liberty</assemblyInstallDirectory>
+    <refresh>false</refresh>
+    <installAppsConfigDropins>C:\Users\john3\eclipse-workspace\lab1\target\liberty\wlp\usr\servers\lab1Server\configDropins\defaults\install_apps_configuration_1491924271.xml</installAppsConfigDropins>
+    <projectType>war</projectType>
+    <warSourceDirectory>C:\Users\john3\eclipse-workspace\lab1\src\main\webapp</warSourceDirectory>
+</liberty-plugin-config>
